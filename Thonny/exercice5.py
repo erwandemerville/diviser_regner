@@ -3,7 +3,6 @@ def fusion(L1, L2):
     :param L1: (list d'int) Liste d'entiers triée
     :param L2: (list d'int) Liste d'entiers triée
     :return: (list d'int) Fusion des deux listes triées """
-    global NB_COMP
     
     if L1 == []:
         return L2
